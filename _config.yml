@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Chris Waudby / Biomolecular NMR"
+locale                   : "en-UK"
+title                    : "Chris Waudby"
 title_separator          : "-"
 name                     : &name "Chris Waudby"
 description              : &description "Post-doctoral research associate at UCL"
@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Chris Waudby"
-  avatar           : "profile.png"
-  bio              : "Biomolecular NMR spectroscopy, co-translational protein folding and molecular interactions."
+  avatar           : "chris.jpg"
+  bio              : "Biomolecular NMR, molecular interactions, co-translational protein folding and misfolding"
   location         : "University College London"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=waudby+ca"
