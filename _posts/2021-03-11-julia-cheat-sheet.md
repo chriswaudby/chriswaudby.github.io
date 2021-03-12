@@ -38,3 +38,24 @@ costfunc(p) = sum(residuals(p).^2)
 sol = optimize(costfunc, p0)
 pfit = sol.minimizer
 ```
+
+Plotting
+======
+
+Colour schemes
+------
+
+```julia
+using Plots, ColorSchemes
+
+plot(lotsofdataseries, palette=:Paired_12)
+plot(lotsofdataseries, palette=palette(:lightrainbow, 11))
+```
+
+Useful discrete palettes:
+* `:Paired_12` (light-dark-light-dark etc)
+* `:Set1`
+
+Useful continuous palettes:
+* `:lightrainbow`
+* `:magma`
